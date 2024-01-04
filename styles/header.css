@@ -1,0 +1,34 @@
+.header {
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: #212121FF;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #4D4D4D;
+}
+
+.user-avatar-button {
+    border: none;
+    background-color: transparent;
+}
+
+.current-user-picture {
+    border: 0;
+    background-color: transparent;
+    height: 30px;
+}
+
+.netflix-logo {
+    height: 70px;
+}
