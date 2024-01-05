@@ -3,12 +3,21 @@
     box-shadow : 0px -5px 120px 100px rgb(0, 0, 0);
 }
 
+.video-grid h3 {
+    margin-left: 10px;
+}
+
 .video-preview {
     margin-left: 30px;
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
     justify-content: center;
+}
+
+.thumbnail-row img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
 }
 
 @media (max-width: 750px) {
